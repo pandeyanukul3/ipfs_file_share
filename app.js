@@ -30,4 +30,4 @@ app.get('/download/:ID',function(req,res){
     res.redirect('https://ipfs.io/ipfs/'+req.params.ID);
 })
  
-app.listen(8080)
+app.listen(3000)
